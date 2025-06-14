@@ -88,32 +88,35 @@
         </div>
         <div style=" width: 400px; display: flex; flex-direction: column; background-color: white; border-radius: 5px;">
           <div style="height: 56px; width: 100%;border-width: 2px; border-bottom-style: solid;background-color: white; border-color: rgb(245, 245, 245); border-radius: 5px;">
-            <h3 style="margin-top: 16px; margin-left: 15px; font-size: 18px;">团队成员</h3>
+            <h3 style="margin-top: 16px; margin-left: 15px; font-size: 18px;">核心技术</h3>
           </div>
           <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
                 <a-avatar
                 :size="48"
                 style="margin-left: 18px;margin-top: 16px;"
-                > 徐
+                src="https://upload-bbs.miyoushe.com/upload/2025/06/08/387521852/deed1f7f53cf8c9957afdd957f12c72d_42238228227641425.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png"
+                > 
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队长:徐升炎</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">Vue</h4>
           </div>
           <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
                 <a-avatar
                 :size="48"
                 style="margin-left: 18px;margin-top: 16px;"
-               > 伍
-                </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:伍超</h4>
-          </div>
-          <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
-                <a-avatar
-                :size="48"
-                style="margin-left: 18px;margin-top: 16px;"
+                src="https://upload-bbs.miyoushe.com/upload/2025/06/08/387521852/66da5120cb635de83c4e644a124f9e49_3132108358970687110.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png"
                > 
-                蔡
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:蔡佳和</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">SpringBoot</h4>
+          </div>
+          <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
+                <a-avatar
+                :size="48"
+                style="margin-left: 18px;margin-top: 16px;"
+                src="https://baomidou.com/assets/asset.cIbiVTt__ZgvyzK.svg"
+               > 
+                
+                </a-avatar>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">MyBatisPlus</h4>
           </div>
           <h2 style=" margin-top: 10px ; margin-left: 20px;"> 北京时间 : {{currentTime}}</h2>
         </div>
@@ -121,7 +124,7 @@
       <div style="display: flex; width: 100%;height: 450px; justify-content: space-between;">
         <div style="width: 800px; display: flex; flex-direction: column;">
           <div style="height: 56px; width: 100%;border-width: 2px; border-bottom-style: solid;background-color: white; border-color: rgb(245, 245, 245); border-radius: 5px;">
-            <h3 style="margin-top: 16px; margin-left: 15px; font-size: 18px;">成员动态</h3>
+            <h3 style="margin-top: 16px; margin-left: 15px; font-size: 18px;">技术动态</h3>
           </div>
           
               <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
@@ -130,7 +133,7 @@
                 style="margin-left: 18px;margin-top: 16px;" > 
                 徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队长:徐升炎  实现前端页面基本搭建，制定前后端接口交互规则</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎  实现前端页面基本搭建，制定前后端接口交互规则</h4>
                </div>
               <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
                 <a-avatar
@@ -138,7 +141,7 @@
                 style="margin-left: 18px;margin-top: 16px;" > 
                  徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队长:徐升炎  实现数据库基本设计，实现部分后端与数据库交互</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎  实现数据库基本设计，实现部分后端与数据库交互</h4>
               </div>
 
               <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
@@ -146,9 +149,9 @@
                 :size="40"
                 style="margin-left: 18px;margin-top: 16px;"
                 > 
-                伍
+                徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:伍超  完成后端基本框架搭建</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎 完成后端基本框架搭建</h4>
               </div>
 
                <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
@@ -156,9 +159,9 @@
                 :size="40"
                 style="margin-left: 18px;margin-top: 16px;"
                 > 
-                伍
+                徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:伍超  完成后端接口编写,实现部分业务逻辑</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎 完成后端接口编写,实现部分业务逻辑</h4>
               </div>
 
               <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
@@ -166,9 +169,9 @@
                 :size="40"
                 style="margin-left: 18px;margin-top: 16px;"
                 > 
-                蔡
+                徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:蔡佳和 实现数据库数据收集，对数据库设计进行完善</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎 实现数据库数据收集，对数据库设计进行完善</h4>
               </div>
 
               <div style="height: 80px; width: 100%; display: flex; background-color: white;border-width: 3px; border-bottom-style: solid;border-color: rgb(245, 245, 245); border-radius: 5px; transition: all 0.2s;" class="hover-box">
@@ -176,9 +179,9 @@
                 :size="40"
                 style="margin-left: 18px;margin-top: 16px;"
                 > 
-                蔡
+                徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">队员:蔡佳和  实现部分后端到数据库交互以及业务逻辑编写</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">蔡佳和  实现部分后端到数据库交互以及业务逻辑编写</h4>
               </div>
             </div>
             <div style=" width: 400px;height: 450px; background-color: white;" id="ChiHomeData">

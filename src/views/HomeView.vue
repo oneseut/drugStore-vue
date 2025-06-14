@@ -1,6 +1,5 @@
 <template>
   <div style="display: flex; width: 100vw;height: 100vh">
-
     <div style="background-color: rgb(0, 21, 41) ; height: 100vh;width: 208px; overflow: hidden;">
       <MeunComponent></MeunComponent>
     </div>

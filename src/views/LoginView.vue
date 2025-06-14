@@ -82,7 +82,7 @@ const onFinish = values => {
   user.password=formState.password
   user.user_name=formState.username
   
-  console.log(user)
+  
     axios.post('http://localhost:8080/userlogin',user).then(
       function (response){
         console.log(response)
