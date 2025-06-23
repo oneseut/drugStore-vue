@@ -181,7 +181,7 @@
                 > 
                 徐
                 </a-avatar>
-                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">蔡佳和  实现部分后端到数据库交互以及业务逻辑编写</h4>
+                <h4 style="margin-top: 29px; margin-left: 14px; word-spacing: 10px;">徐升炎  实现部分后端到数据库交互以及业务逻辑编写</h4>
               </div>
             </div>
             <div style=" width: 400px;height: 450px; background-color: white;" id="ChiHomeData">
